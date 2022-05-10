@@ -18,23 +18,4 @@ public class CoapPostClient {
         System.out.println("RESPONSE CODE: " + resp.getCode());
         System.out.println("RESPONSE TEXT: " + resp.getResponseText());
 
-//        // asynchronous
-//
-//        client.get(new CoapHandler() {
-//            @Override public void onLoad(CoapResponse response) {
-//                String content = response.getResponseText();
-//                System.out.println("onLoad: " + content);
-//            }
-//
-//            @Override public void onError() {
-//                System.err.println("Error");
-//            }
-//        });
-
-        // wait for user
-//        System.out.println("press enter to continue exit");
-//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-//        try { br.readLine(); } catch (IOException e) { }
-    }
-
 }
